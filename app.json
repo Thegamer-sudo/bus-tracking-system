@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Smart Bus Tracker",
+    "slug": "smart-bus-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "paste_your_key_here"
+        }
+      },
+      "package": "com.smartbustracker.app"
+    },
+    "ios": {
+      "config": {
+        "googleMapsApiKey": "AIzaSyC1XR0KsFbjbSuh1LUzherEb1E8F2B9syU"
+      },
+      "bundleIdentifier": "com.smartbustracker.app"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Smart Bus Tracker to use your location to find nearby stops."
+        }
+      ]
+    ]
+  }
+}
